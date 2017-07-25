@@ -1,0 +1,76 @@
+html, .container-fluid {
+	background-color: #F6C90E;
+}
+
+h1 {
+	color: #000000;
+	font-family: 'Didot'
+	font-size: 80px;
+}
+
+h2 {
+	color: #000000;
+	font-family: 'Didot';
+	font-size: 15px;
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+	}
+
+	hr {
+		margin-top: 100px;
+		margin-right: 350px;
+		margin-left: 350px;
+		border-top: solid 1px;
+	}
+
+.portrait {
+	box-shadow: inset 12px 12px 3px 0 rgba(0,0,0,0.50);
+	border-radius: 1%
+}
+
+.peripheralText {
+	font-family: Didot;
+	font-size: 25px;
+	color: #000000;
+}
+
+.buttonText {
+	font-family: Didot;
+	font-size: 20px;
+	color: #000000;
+	/*border: solid 1px;*/
+ 
+}
+
+.buttonText:hover {
+	cursor: pointer;
+}
+
+
+.name {
+	font-family: Didot-Bold;
+	font-size:  50px;
+	color: #000000;
+}
+
+
+
+
+
+@media query(min-width: 600px) {
+	h1 {
+		color: #000000;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 20px;
+	}
+	.name {
+		font-family: Didot-Bold;
+		font-size: 20px;
+		color: #000000;
+	}
+}
